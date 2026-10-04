@@ -75,7 +75,7 @@ int main()
 
   for (size_t i = 0; i < line; ++i) {
     for (size_t j = 0; j < column; ++j) {
-      std::cout << "Введите элемент под номером " << i+1 << " " << j+1 << " матриц:\n";
+      std::cout << "Введите элемент под номером " << j+1 << " " << i+1 << " матрицы:\n";
       std::cin >> matrix[i][j];
       if (std::cin.fail()) {
         std::cout << "Введены не целые числа\n";
